@@ -55,7 +55,7 @@ function App() {
       setErrorigualdadpass(true)
       setErrorpass(false)
       setNoerror(false)
-      setIgualdadpassmsg("Los pass no son iguales!")
+      setIgualdadpassmsg("Los contraseñas no coinciden!")
       return
     } else {
       setErrorllenado(false)
