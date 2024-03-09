@@ -1,0 +1,145 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.circulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  /* Diámetro del círculo */
+  height: 55px;
+  /* Diámetro del círculo */
+  border-radius: 50%;
+  /* Hace que el borde sea redondo */
+  background-color: #fff;
+  /* Color de fondo del círculo */
+  color: black;
+  /* Color del ícono */
+  border: 1px solid black;
+}
+
+.contenedorSocial {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.contenedorForm {
+  background: white;
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.form-group{
+  margin-top: 10px;
+  width: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  width: 80px;
+}
+
+button {
+  margin-top: 5% !important;
+  width: 80%;
+  background-color: green !important;
+}
+
+.formulario{
+  margin-top: 0px;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.error{
+  margin-top: 10px;
+  margin-left: 40px;
+  background: rgba(243, 38, 38, 0.5);
+  width: 80%;
+  height: auto;
+  opacity: .4;
+  border-radius: 10px;
+  border: 1px solid rgb(196, 119, 119);
+}
+
+.noerror{
+  margin-top: 10px;
+  margin-left: 40px;
+  background: rgba(128, 232, 154, 0.5);
+  width: 80%;
+  height: 60px;
+  opacity: .4;
+  border-radius: 10px;
+  border: 1px solid rgb(141, 196, 119);
+}
+
+.conerror {
+  color: rgb(156, 0, 0);
+  opacity: 1;
+  font-weight: 900;
+  padding-top: 15px;
+}
+
+p.sinerror{
+  color: rgb(0, 156, 3);
+  opacity: 1;
+  font-weight: 900;
+  padding-top: 15px;
+}
