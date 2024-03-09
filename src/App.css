@@ -108,38 +108,7 @@ h1 {
   padding-bottom: 10px;
 }
 
-.error{
-  margin-top: 10px;
-  margin-left: 40px;
-  background: rgba(243, 38, 38, 0.5);
+.alert {
   width: 80%;
-  height: auto;
-  opacity: .4;
-  border-radius: 10px;
-  border: 1px solid rgb(196, 119, 119);
-}
-
-.noerror{
-  margin-top: 10px;
   margin-left: 40px;
-  background: rgba(128, 232, 154, 0.5);
-  width: 80%;
-  height: 60px;
-  opacity: .4;
-  border-radius: 10px;
-  border: 1px solid rgb(141, 196, 119);
-}
-
-.conerror {
-  color: rgb(156, 0, 0);
-  opacity: 1;
-  font-weight: 900;
-  padding-top: 15px;
-}
-
-p.sinerror{
-  color: rgb(0, 156, 3);
-  opacity: 1;
-  font-weight: 900;
-  padding-top: 15px;
 }

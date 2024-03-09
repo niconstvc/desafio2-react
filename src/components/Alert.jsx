@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Alert({errormsg, status, estilomsg}) {
+function Alert({errormsg, status}) {
   return (
     <>
       <div className={status}>
-        <p className={estilomsg}>{errormsg}</p>
+        {errormsg}
       </div>
     </>
   )
